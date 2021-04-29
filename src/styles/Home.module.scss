@@ -1,0 +1,20 @@
+.task-row {
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 300px;
+}
+
+.taskRowFirst {
+  @extend .task-row;
+  background: #f8cecc;
+}
+
+.taskRowSecond {
+  @extend .task-row;
+  background: #dae8fc;
+}
+
+.taskRowThird {
+  @extend .task-row;
+  background: #d3e6d2;
+}
